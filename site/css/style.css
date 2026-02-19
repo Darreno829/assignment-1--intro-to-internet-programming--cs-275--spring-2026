@@ -9,9 +9,70 @@ html {
 
 
 body {
-    background-color: yellow;
+    font-family: "Space Mono", monospace, serif;
+    background-color:whitesmoke;
+    color: black;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+header {
+    margin-bottom: 40px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-family: "Merriweather", serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 36px;
+    margin-bottom:20px;
+}
+
+nav {
+    margin-bottom: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:darkred;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block
+    margin-bottom: 30px;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+nav a.back {
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+nav a.back:hover {
+    text-decoration: underline;
 }
